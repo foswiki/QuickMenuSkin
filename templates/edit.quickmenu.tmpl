@@ -49,11 +49,11 @@ try { document.main.text.focus(); } catch (er) {}
 <small>(<a href="#%MAKETEXT{"Opens page in new window"}%" target="ForceNewRevision" onclick="return launchWindow('%SYSTEMWEB%','ForceNewRevision')" href="%SCRIPTURLPATH{"view"}%/%SYSTEMWEB%/ForceNewRevision" title='%MAKETEXT{"Read new revision help text in new window"}%' rel='nofollow'>help</a>)</small></div>
 <input type="submit" class="twikiSubmit" name="action_save" %MAKETEXT{"value='Save' accesskey='s'"}% />
 %TMPL:P{"sep"}% 
-<input type="submit" class="twikiButton" name="action_quietsave" %MAKETEXT{"value='Quiet save' accesskey='q'"}% />
+<input type="submit" class="foswikiButton" name="action_quietsave" %MAKETEXT{"value='Quiet save' accesskey='q'"}% />
 %TMPL:P{"sep"}%
-<input type="submit" class="twikiButton" name="action_checkpoint" %MAKETEXT{"value='Save and Continue' accesskey='k'"}% /> %MAKETEXT{"or"}%
-<input type="submit" class="twikiButton" name="action_preview" %MAKETEXT{"value='Preview' accesskey='p'"}% /> %MAKETEXT{"or"}%
-<input type="submit" class="twikiButton" name="action_cancel" title='%MAKETEXT{"Cancel editing and discard changes"}%' %MAKETEXT{"value='Cancel' accesskey='c'"}% />
+<input type="submit" class="foswikiButton" name="action_checkpoint" %MAKETEXT{"value='Save and Continue' accesskey='k'"}% /> %MAKETEXT{"or"}%
+<input type="submit" class="foswikiButton" name="action_preview" %MAKETEXT{"value='Preview' accesskey='p'"}% /> %MAKETEXT{"or"}%
+<input type="submit" class="foswikiButton" name="action_cancel" title='%MAKETEXT{"Cancel editing and discard changes"}%' %MAKETEXT{"value='Cancel' accesskey='c'"}% />
 <div class=AccessKeyInfo><a href="#%MAKETEXT{"Opens page in new window"}%" onclick="launchWindow('%SYSTEMWEB%', 'AccessKeys'); return false;">%MAKETEXT{"Access keys"}%</a>: %MAKETEXT{"S = Save, Q = Quiet save, K = Save and Continue, P = Preview, C = Cancel"}%</div>%TMPL:END%
 
 %TMPL:DEF{"titleaction"}%(edit) %TMPL:END%
