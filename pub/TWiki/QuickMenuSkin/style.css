@@ -71,7 +71,7 @@ OL LI, UL LI {
 	line-height: 1.3em;
 }
 :link,
-.foswikiEmulatedLink {
+.twikiEmulatedLink {
 	color: #00f;
 	text-decoration: underline;
 }
@@ -140,7 +140,7 @@ OL LI, UL LI {
 	font-size: 80%;
 	color: #666;
 }
-.foswikiGrayText {
+.twikiGrayText {
 	color: #666;
 }
 .twikiInputBox {
@@ -325,7 +325,7 @@ th.twikiSortedDescendingCol {
 .twikiAttachments CAPTION {
 	display: none;
 }
-.foswikiHelp {
+.twikiHelp {
 	padding: 1em;
 	background-color: #def;
 	border: solid #9cf;
@@ -359,7 +359,7 @@ th.twikiSortedDescendingCol {
 	font-size: 100%;
 	vertical-align: baseline;
 }
-.foswikiNew {
+.twikiNew {
 	padding: 0 2px;
 	color: #639;
 	background-color: #edf;
@@ -386,10 +386,10 @@ th.twikiSortedDescendingCol {
 	float: left;
 }
 .twikiSmall,
-.foswikiSummary {
+.twikiSummary {
 	font-size: smaller;
 }
-.SearchResults .foswikiSummary {
+.SearchResults .twikiSummary {
 	padding: 0 2em 1em 2em;
 	border: solid #999;
 	border-width: 0 0 1px 0;
