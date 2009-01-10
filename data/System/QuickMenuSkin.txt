@@ -14,10 +14,10 @@
 
 ---++ Installation
 
-*Note:* You do not need to install anything on the browser to use this skin. The following instructions are for the administrator who installs the skin on the server where TWiki is running.
+*Note:* You do not need to install anything on the browser to use this skin. The following instructions are for the administrator who installs the skin on the server where Foswiki is running.
 
    * Download the ZIP file from the Skin Home page (see below)
-   * Unzip ==QuickMenuSkin.zip== in your twiki installation directory
+   * Unzip ==QuickMenuSkin.zip== in your Foswiki installation directory
    * Test if installed: %SCRIPTURL{"view"}%/%WEB%/%TOPIC%?skin=quickmenu
    * For skin activation see %SYSTEMWEB%.Skins
 
@@ -44,7 +44,7 @@ The menu bar is built by default from %SYSTEMWEB%.QuickMenuBar, which in turn in
    * *To create a new menu* %BR%
    =mymenu = new QuickMenu.Menu(menuBar, "Menu Text", "", "/icons/icon.gif", "Menu Tip Information");= %BR%
    or just a link:%BR%
-   =new QuickMenu.Menu(menuBar, "TWiki.org", "http://twiki.org/");= %BR%
+   =new QuickMenu.Menu(menuBar, "Foswiki.org", "http://foswiki.org/");= %BR%
    or a javascript function:%BR%
    =new QuickMenu.Menu(menuBar, "Say Hello", "js:alert('Hello')");=
 
@@ -99,8 +99,9 @@ The menu bar is built by default from %SYSTEMWEB%.QuickMenuBar, which in turn in
 |  Preview: | [[%SCRIPTURL{"view"}%/%WEB%/%TOPIC%?skin=quickmenu][Preview with this topic]] |
 |  Base Name: | quickmenu |
 |  Skin Author: | TWiki:Main/VernonLyon |
-|  Skin Version: | 1 Feb 2007 (v1.07) |
+|  Skin Version: | 10 Jan 2009 |
 | Change&nbsp;History: | <!-- specify latest version first -->&nbsp; |
+|  9 Jan 2009: | Tasks.Item713: Converting to Foswiki - Main.LarsEik |
 |  1 Feb 2007: | Added a missing template for TWiki 4.1.0 (v1.07) |
 |  21 Nov 2006: | Added backlinks template, Fixed IE "select" bug, Menu items are actual links, Cleaner interface (v1.06) |
 |  13 Sep 2006: | Fixed IE bug (v1.05) |

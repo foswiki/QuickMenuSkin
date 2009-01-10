@@ -1,4 +1,4 @@
-package TWiki::Contrib::QuickMenuSkin;
+package Foswiki::Contrib::QuickMenuSkin;
 use vars qw( $VERSION );
 $VERSION = '$Rev: 12023$';
 1;

@@ -3,14 +3,14 @@
 
 ---++ Why is the !QuickMenu disabled?
 
-The QuickMenuSkin requires a browser with Javascript enabled. Without Javascript the menu will not load and the usual links will not be accessible. This makes navigating through the TWiki difficult.
+The QuickMenuSkin requires a browser with Javascript enabled. Without Javascript the menu will not load and the usual links will not be accessible. This makes navigating through the wiki difficult.
 
 ---++ Solution
 
 You have 2 choices:
 
    * Use a browser that has javascript enabled.
-   * Use a different TWiki skin like:
+   * Use a different skin like:
      [[%SCRIPTURLPATH{"view"}%/%SYSTEMWEB%/PatternSkin?skin=pattern][PatternSkin]]
      or [[%SCRIPTURLPATH{"view"}%/%SYSTEMWEB%/ClassicSkin?skin=classic][ClassicSkin]]
  %BR% To activate a skin see: [[%SYSTEMWEB%.Skins#Activating_Skins][Skins]]
