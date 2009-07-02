@@ -173,21 +173,21 @@ OL LI, UL LI {
 	border: solid #9cf;
 	border-width: 1px 0;
 }
-.TWikiCopyright {
+.FoswikiCopyright {
 	margin: 1em 0 0 0;
 	font-size: 80%;
 	line-height: 1.3em;
 	text-align: center;
 }
-.twikiRight {
+.foswikiRight {
 	float: right;
 }
-.TWikiFooterNote {
+.FoswikiFooterNote {
 	margin: .4em 0 0 0;
 	font-size: 80%;
 	text-align: center
 }
-.twikiAccessKey {
+.foswikiAccessKey {
 	text-decoration: underline;
 }
 .twikiSubmit {
