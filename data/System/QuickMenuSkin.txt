@@ -99,9 +99,10 @@ The menu bar is built by default from %SYSTEMWEB%.QuickMenuBar, which in turn in
 |  Preview: | [[%SCRIPTURL{"view"}%/%WEB%/%TOPIC%?skin=quickmenu][Preview with this topic]] |
 |  Base Name: | quickmenu |
 |  Skin Author: | TWiki:Main/VernonLyon |
-|  Skin Version: | 10 Jan 2009 |
+|  Skin Version: | 2 Jul 2009 |
 | Change&nbsp;History: | <!-- specify latest version first -->&nbsp; |
-|  9 Jan 2009: | Tasks.Item713: Converting to Foswiki - Main.LarsEik |
+|  2 Jul 2009: | update css to use Foswiki classes - Foswiki:Main.WillNorris |
+|  9 Jan 2009: | Tasks.Item713: Converting to Foswiki - Foswiki:Main.LarsEik |
 |  1 Feb 2007: | Added a missing template for TWiki 4.1.0 (v1.07) |
 |  21 Nov 2006: | Added backlinks template, Fixed IE "select" bug, Menu items are actual links, Cleaner interface (v1.06) |
 |  13 Sep 2006: | Fixed IE bug (v1.05) |

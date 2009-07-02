@@ -1,18 +1,18 @@
 %TMPL:INCLUDE{"foswiki"}%
 
-%TMPL:DEF{"topicaction"}% <input type="submit" class="twikiSubmit" name="submit" value='%MAKETEXT{"Change form"}%' /> %MAKETEXT{"or"}% <input type="button" class="twikiSubmit" name="backbutton" %MAKETEXT{"value='Cancel' accesskey='c'"}% onclick="history.go(-1)" />%TMPL:END%
+%TMPL:DEF{"topicaction"}% <input type="submit" class="foswikiSubmit" name="submit" value='%MAKETEXT{"Change form"}%' /> %MAKETEXT{"or"}% <input type="button" class="foswikiSubmit" name="backbutton" %MAKETEXT{"value='Cancel' accesskey='c'"}% onclick="history.go(-1)" />%TMPL:END%
 
 %TMPL:DEF{"titleaction"}%(change form) %TMPL:END%
 %TMPL:DEF{"webaction"}% *Action* %TMPL:END%
 
 %TMPL:DEF{"content"}%
 %TMPL:P{"simpleheader"}%
-<div class=twikiTopic>
+<div class=foswikiTopic>
 <form name="main" action="%SCRIPTURLPATH{"edit"}%/%WEB%/%TOPIC%" method="post">
 <input type="hidden" name="t" value="t=%GMTIME{"$epoch"}%" />
 ---++ Choose a new form template
 
-<table border="0" cellspacing="0" cellpadding="0" class=twikiTable>
+<table border="0" cellspacing="0" cellpadding="0" class=foswikiTable>
 <tr><th>Possible form templates<th>Notes</tr>
 <tr valign=top><td><ul style="padding-left: 1em">%FORMLIST%</ul>
 </td><td valign="top">

@@ -6,7 +6,7 @@
 #PageTop%TMPL:END%
 
 %TMPL:DEF{"titleaction"}%(preview) %TMPL:END%
-%TMPL:DEF{"headerhelp"}%<div class=twikiHelp style="margin:1em">
+%TMPL:DEF{"headerhelp"}%<div class=foswikiHelp style="margin:1em">
 <ul style="font-size:80%;margin:0">
   <li> %MAKETEXT{"To *save* changes: Press the ~[Save Changes~] button."}%</li>
   <li> %MAKETEXT{"To make *more changes*: Go back in your browser."}%</li>
@@ -21,7 +21,7 @@
 %TMPL:DEF{"topicaction"}%
 <div style="padding-bottom:.5em"><input type="checkbox" name="forcenewrevision" %FORCENEWREVISIONCHECKBOX% /> %MAKETEXT{"Force new revision"}%
 <small>(<a href="#%MAKETEXT{"Opens page in new window"}%" target="ForceNewRevision" onclick="return launchWindow('%SYSTEMWEB%','ForceNewRevision')" href="%SCRIPTURLPATH{"view"}%/%SYSTEMWEB%/ForceNewRevision" title='%MAKETEXT{"Read new revision help text in new window"}%' rel='nofollow'>help</a>)</small></div>
-<input type="submit" class="twikiSubmit" %MAKETEXT{"value='Save' accesskey='s'"}% />
+<input type="submit" class="foswikiSubmit" %MAKETEXT{"value='Save' accesskey='s'"}% />
 %TMPL:P{"sep"}%
 <input type="submit" class="foswikiButton" name="action_quietsave" %MAKETEXT{"value='Quiet save' accesskey='q'"}% />
 %TMPL:P{"sep"}%
@@ -30,7 +30,7 @@
 
 %TMPL:DEF{"content"}%
 %TMPL:P{"simpleheader"}%
-<div class=twikiTopic>
+<div class=foswikiTopic>
 %TEXT%
 
 %BR%

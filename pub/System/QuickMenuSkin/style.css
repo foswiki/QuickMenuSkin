@@ -71,7 +71,7 @@ OL LI, UL LI {
 	line-height: 1.3em;
 }
 :link,
-.twikiEmulatedLink {
+.foswikiEmulatedLink {
 	color: #00f;
 	text-decoration: underline;
 }
@@ -81,14 +81,14 @@ OL LI, UL LI {
 	background-color: #00f;
 	text-decoration: none;
 }
-.twikiTopic {
+.foswikiTopic {
 	padding: 1em;
 }
-.twikiTopic H2, .twikiTopic H3, .twikiTopic H4, .twikiTopic H5 {
+.foswikiTopic H2, .foswikiTopic H3, .foswikiTopic H4, .foswikiTopic H5 {
 	border: solid #999;
 	border-width: 0 0 1px 0;
 }
-.twikiTopic H2 {
+.foswikiTopic H2 {
 	background-color: #eee;
 }
 .PageTitle {
@@ -129,21 +129,21 @@ OL LI, UL LI {
 	font-weight: bold;
 }
 
-.twikiRdiffRevInfo {
+.foswikiRdiffRevInfo {
 	padding: 1em 2em;
 	color: #666;
 	border: solid #666;
 	border-width: 0 0 1px 0;
 }
-.twikiRevInfo {
+.foswikiRevInfo {
 	text-align: right;
 	font-size: 80%;
 	color: #666;
 }
-.twikiGrayText {
+.foswikiGrayText {
 	color: #666;
 }
-.twikiInputBox {
+.foswikiInputBox {
 	margin: 0;
 	padding: 0 1px 1px 1px;
 	color: black;
@@ -151,7 +151,7 @@ OL LI, UL LI {
 	border: solid 1px #ccc;
 	border-color: #aaa #ddd #ddd #aaa;
 }
-.twikiInputBoxDefault {
+.foswikiInputBoxDefault {
 	color: #999;
 }
 .TopicAction {
@@ -190,7 +190,7 @@ OL LI, UL LI {
 .foswikiAccessKey {
 	text-decoration: underline;
 }
-.twikiSubmit {
+.foswikiSubmit {
 	border: 1px solid #315ea3;
 	color: #fff;
 	background: url("menu_bg.gif") repeat-x center;
@@ -200,29 +200,29 @@ OL LI, UL LI {
 	color: #000;
 	background: url("menu_over.gif") repeat-x center;
 }
-INPUT.twikiSubmitDisabled,
-INPUT.twikiSubmitDisabled:focus,
-INPUT.twikiSubmitDisabled:hover {
+INPUT.foswikiSubmitDisabled,
+INPUT.foswikiSubmitDisabled:focus,
+INPUT.foswikiSubmitDisabled:hover {
 	border: 1px solid #666;
 	color: #666;
 	background: #aaa;
 }
-.twikiToc {
+.foswikiToc {
 	margin: 1em 0;
 	padding: .3em 0 .6em 0;
 }
-.twikiToc .twikiTocTitle {
+.foswikiToc .foswikiTocTitle {
 	margin: 0;
 	padding: 0;
 	font-weight: bold;
 	color: #666;
 }
-.twikiToc UL {
+.foswikiToc UL {
 	list-style: none;
 	margin: 0;
 	padding: 0 0 0 .5em;
 }
-.twikiToc LI {
+.foswikiToc LI {
 	margin-left: 1.2em;
 	padding-left: 1.2em;
 }
@@ -263,36 +263,36 @@ a:visited .twistyLinkLabel {
 }
 
 /* TablePlugin */
-.twikiTable,
-.twikiTable td,
-.twikiTable th {
+.foswikiTable,
+.foswikiTable td,
+.foswikiTable th {
 	border-color: #ccc;
 }
-.twikiTable th {
+.foswikiTable th {
 	padding: 4px;
 }
-.twikiTable td {
+.foswikiTable td {
 	padding: 2px 4px;
 }
-.twikiTable th a:link,
-.twikiTable th a:visited,
-.twikiTable th a font {
+.foswikiTable th a:link,
+.foswikiTable th a:visited,
+.foswikiTable th a font {
 	color: #06c;
 	text-decoration: none;
 }
-.twikiTable th a:hover,
-.twikiTable th a:hover font {
+.foswikiTable th a:hover,
+.foswikiTable th a:hover font {
 	background-color:transparent;
 	color: #609;
 	border: solid #609;
 	border-width: 0 0 1px 0;
 }
-th.twikiSortedAscendingCol,
-th.twikiSortedDescendingCol {
+th.foswikiSortedAscendingCol,
+th.foswikiSortedDescendingCol {
 	background-color: #def;
 }
 
-.twikiAttachments {
+.foswikiAttachments {
 	margin: 0;
 	padding: .5em 2em;
 	font-size: 90%;
@@ -301,7 +301,7 @@ th.twikiSortedDescendingCol {
 	border-width: 1px 0 0 0;
 	background-color: #f8f1ff;
 }
-.twikiAttachments TABLE {
+.foswikiAttachments TABLE {
 	margin: .5em 0 1em 0;
 	padding: 0;
 	line-height: 1.3em;
@@ -310,22 +310,22 @@ th.twikiSortedDescendingCol {
 	border: solid 1px #ccc;
 	width: 100%;
 }
-.twikiAttachments TH {
+.foswikiAttachments TH {
 	padding: 3px 6px;
 	height: 2.5em;
 	background-color: #fff;
 }
-.twikiAttachments TD {
+.foswikiAttachments TD {
 	padding: 3px 6px;
 	height: 2em;
 	vertical-align: top;
 	border-width: 0 0 1px 0;
 }
-.twikiHidden,
-.twikiAttachments CAPTION {
+.foswikiHidden,
+.foswikiAttachments CAPTION {
 	display: none;
 }
-.twikiHelp {
+.foswikiHelp {
 	padding: 1em;
 	background-color: #def;
 	border: solid #9cf;
@@ -338,8 +338,8 @@ th.twikiSortedDescendingCol {
 	border: solid #c9f;
 	border-width: 0 0 1px 0;
 }
-.twikiDiffAddedMarker,
-.twikiDiffDeletedMarker {
+.foswikiDiffAddedMarker,
+.foswikiDiffDeletedMarker {
 	padding: .3em;
 	font-weight: bold;
 }
@@ -359,7 +359,7 @@ th.twikiSortedDescendingCol {
 	font-size: 100%;
 	vertical-align: baseline;
 }
-.twikiNew {
+.foswikiNew {
 	padding: 0 2px;
 	color: #639;
 	background-color: #edf;
@@ -379,37 +379,37 @@ th.twikiSortedDescendingCol {
 	border: solid #999;
 	border-width: 1px 0;
 }
-.twikiRight {
+.foswikiRight {
 	float: right;
 }
-.twikiLeft {
+.foswikiLeft {
 	float: left;
 }
-.twikiSmall,
-.twikiSummary {
+.foswikiSmall,
+.foswikiSummary {
 	font-size: smaller;
 }
-.SearchResults .twikiSummary {
+.SearchResults .foswikiSummary {
 	padding: 0 2em 1em 2em;
 	border: solid #999;
 	border-width: 0 0 1px 0;
 }
-TABLE#twikiSearchTable {
+TABLE#foswikiSearchTable {
 	border: solid #999;
 	border-width: 1px 1px 0 1px;
 }
-TABLE#twikiSearchTable TH,
-TABLE#twikiSearchTable TD {
+TABLE#foswikiSearchTable TH,
+TABLE#foswikiSearchTable TD {
 	padding: 1em;
 	border: solid #999;
 	border-width: 0 0 1px 0;
 }
-TABLE#twikiSearchTable TD.first {
+TABLE#foswikiSearchTable TD.first {
 	background: #eee;
 }
-.twikiEditboxStyleMono {
+.foswikiEditboxStyleMono {
 	font: 100% "Courier New", courier, monaco, monospace;
 }
-.twikiEditboxStyleProportional {
+.foswikiEditboxStyleProportional {
 	font: 100% verdana, arial, sans-serif;
 }

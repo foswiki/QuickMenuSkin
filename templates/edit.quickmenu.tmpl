@@ -11,13 +11,13 @@ try { document.main.text.focus(); } catch (er) {}
 
 %TMPL:DEF{"content"}%
 %TMPL:P{"simpleheader"}%
-<div class=twikiTopic>
-<span id="edithelpshow" class="twistyMakeVisible"><a href="#" class="twistyTrigger">%ICON{toggleopen-small}%<span class="twikiLinkLabel">%MAKETEXT{"Show formatting help"}%</span></a></span><span id="edithelphide" class="twistyHidden twistyMakeVisible"><a href="#" class="twistyTrigger">%ICON{toggleclose-small}%<span class="twikiLinkLabel">%MAKETEXT{"Hide formatting help"}%</span></a></span>
-<div id="edithelptoggle" class="twikiHelp twistyRememberSetting">%INCLUDE{"%SYSTEMWEB%.WikiSyntaxSummary"}%</div>
+<div class=foswikiTopic>
+<span id="edithelpshow" class="twistyMakeVisible"><a href="#" class="twistyTrigger">%ICON{toggleopen-small}%<span class="foswikiLinkLabel">%MAKETEXT{"Show formatting help"}%</span></a></span><span id="edithelphide" class="twistyHidden twistyMakeVisible"><a href="#" class="twistyTrigger">%ICON{toggleclose-small}%<span class="foswikiLinkLabel">%MAKETEXT{"Hide formatting help"}%</span></a></span>
+<div id="edithelptoggle" class="foswikiHelp twistyRememberSetting">%INCLUDE{"%SYSTEMWEB%.WikiSyntaxSummary"}%</div>
 
 <div id="formHolder">
 <form name="main" action="%SCRIPTURLPATH{"save"}%/%WEB%/%TOPIC%" method="post">
-<div class="twikiEditTextarea">
+<div class="foswikiEditTextarea">
 <textarea id='topic' name='text' wrap='virtual' rows='%EDITBOXHEIGHT%' cols='%EDITBOXWIDTH%' style='padding-left:.4em; %EDITBOXSTYLE%' onkeydown='handleKeyDown(event)'>%TEXT%</textarea><br />
 </div>
 <input type="hidden" name="originalrev" value="%ORIGINALREV%" />
@@ -47,7 +47,7 @@ try { document.main.text.focus(); } catch (er) {}
 %TMPL:DEF{"topicaction"}%
 <div style="padding-bottom:.5em"><input type="checkbox" name="forcenewrevision" %FORCENEWREVISIONCHECKBOX% /> %MAKETEXT{"Force new revision"}%
 <small>(<a href="#%MAKETEXT{"Opens page in new window"}%" target="ForceNewRevision" onclick="return launchWindow('%SYSTEMWEB%','ForceNewRevision')" href="%SCRIPTURLPATH{"view"}%/%SYSTEMWEB%/ForceNewRevision" title='%MAKETEXT{"Read new revision help text in new window"}%' rel='nofollow'>help</a>)</small></div>
-<input type="submit" class="twikiSubmit" name="action_save" %MAKETEXT{"value='Save' accesskey='s'"}% />
+<input type="submit" class="foswikiSubmit" name="action_save" %MAKETEXT{"value='Save' accesskey='s'"}% />
 %TMPL:P{"sep"}% 
 <input type="submit" class="foswikiButton" name="action_quietsave" %MAKETEXT{"value='Quiet save' accesskey='q'"}% />
 %TMPL:P{"sep"}%
