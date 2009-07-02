@@ -120,5 +120,5 @@ __Related topic:__ [[%SYSTEMWEB%.Skins][Skins]], %SYSTEMWEB%.SkinBrowser, %SYSTE
 
 -- TWiki:Main/VernonLyon - 13 Jun 2006
 
-%META:FILEATTACHMENT{name="screenshot.gif" attr="h" autoattached="1" comment="" date="1151935718" path="screenshot.gif" size="8839" user="TWiki:Main/VernonLyon" version=""}%
-%META:FILEATTACHMENT{name="fullscreen.gif" attr="h" autoattached="1" comment="" date="1151935718" path="fullscreen.gif" size="24979" user="TWiki:Main/VernonLyon" version=""}%
+%META:FILEATTACHMENT{name="screenshot.gif" attr="h" autoattached="1" comment="" date="1151935718" path="screenshot.gif" size="8839" user="ProjectContributor" version=""}%
+%META:FILEATTACHMENT{name="fullscreen.gif" attr="h" autoattached="1" comment="" date="1151935718" path="fullscreen.gif" size="24979" user="ProjectContributor" version=""}%
